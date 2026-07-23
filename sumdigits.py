@@ -4,5 +4,5 @@ def sumdigits(n):
        return total
     for i in range(n,n+1):
        total+=i
-    return total
+    return total+sumdigits(n-1)
 print(sumdigits(5))

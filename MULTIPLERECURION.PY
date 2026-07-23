@@ -4,4 +4,4 @@ def f(n):
     s1=f(n-2)
     s2=f(n-1)
     return s1+s2
-print(f(10))
+    print(f(10))

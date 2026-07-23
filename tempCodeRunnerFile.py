@@ -1,1 +1,3 @@
-[2,1,5,3,8,6,9,4,0,7]
+from timeit import time
+print(Timer("t=a;a=b;b=t","a=1; b=2").timeit())
+

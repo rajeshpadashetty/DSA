@@ -1,8 +1,19 @@
-def print_pattern(n):
-    for i in range(0,n):
-     for j in range(n):
-        print(j,end="")
-     print()
+for row in range(4):
+    for coloumn in range(4):
+        print("*",end=" ")
+    print()
 
-n=int(input("enter the n value: "))
-print_pattern(n)
+
+    #rint("""
+               
+        #    *
+           #  **
+            #***
+           #***\\
+            
+
+
+
+
+    
+

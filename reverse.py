@@ -1,8 +1,10 @@
-n=24778
-reverseno=0
-while(n>1):
-    ld=n%10
-    reverseno=reverseno*10+ld
-    n=n//10
-   
-print(reverseno)
+def fun(i,n):
+ total=0
+ if i>n:
+  return 0
+ fun(i+1,n)
+ print(i)
+
+ 
+num=int(input("enter the number of terms:"))
+print(fun(1,num))
