@@ -1,6 +1,15 @@
-arr = [1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8,9,9,9]
-unique = set()
-for num in arr:
-    if num not in unique:
-     unique.add(num)
-print(unique)
+def duplicate(num):
+    num_set=set()
+    dupli=[]
+    for i in num:
+        if i in num_set:
+            dupli.append(i)
+            print(True)
+            print(dupli)
+        else:
+            num_set.add(i)
+
+    return False
+
+arr=[1,2,3,4,4,5,6,7,8]
+duplicate(arr)
